@@ -1,0 +1,72 @@
+
+
+.navbar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(220, 8, 8, 0.3) 0px 30px 60px -30px;
+    height: 5rem;
+
+    
+}
+
+.logo{
+    height: 40px;
+    width: 50px;
+    border-radius: 3px;
+    box-shadow:5px;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-left h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(#eee, rgb(6, 44, 115));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-left h2 span {
+    font-size: 3rem;
+  }
+.navbar-menu{
+    list-style: none;
+    display: flex;
+    gap:20px;
+    color: #49557e;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.navbar button{
+    background: transparent;
+    font-size: 16px;
+color: #49557e;
+border: 1px solid tomato;
+padding: 8px 26px;
+border-radius: 9px;
+cursor: pointer;
+transition: 1s;
+            
+
+}
+.navbar button:hover{
+    background-color: rgba(220, 8, 8, 0.3);
+
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-radius: 3px;
+    border-bottom:3px solid #49557e;
+}
+.navbar li{
+    cursor: pointer;
+}
