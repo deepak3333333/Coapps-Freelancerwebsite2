@@ -1,0 +1,46 @@
+.header{
+    height: 125vh;
+   background: url('/header1.jpg') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.matter{
+    position: absolute;
+    align-items: start;
+    bottom: 40%;
+    left: 4vw;
+    
+    
+    
+    
+
+}
+.header-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    max-width: 60%;
+    
+    
+    }
+.header-contents h2{
+    color:white;
+    font-weight: 500;
+    font-size: max(4vw,11px);
+
+}
+.header-contents p{
+
+    color: white;
+    font-size: 2vw;
+
+}
+.matter button{
+   
+    padding: 1.5vw 2.3vw;
+    
+    
+    border-radius: 10px;
+    }
+
+
