@@ -11,6 +11,9 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
+import menu_9 from './menu_8.png'
+import menu_10 from './menu_8.png'
+import menu_11 from './menu_8.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -86,37 +89,50 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Mobile Apps",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
-        menu_image: menu_2
+        menu_name: "Android Apps",
+        menu_image: menu_1
     },
     {
-        menu_name: "Deserts",
-        menu_image: menu_3
+        menu_name: "iPhone Apps",
+        menu_image: menu_1
     },
     {
-        menu_name: "Sandwich",
-        menu_image: menu_4
+        menu_name: "Graphic Design",
+        menu_image: menu_1
     },
     {
-        menu_name: "Cake",
-        menu_image: menu_5
+        menu_name: "Logo Design",
+        menu_image: menu_1
     },
     {
-        menu_name: "Pure Veg",
-        menu_image: menu_6
+        menu_name: "Data Processing",
+        menu_image: menu_1
     },
     {
-        menu_name: "Pasta",
-        menu_image: menu_7
+        menu_name: "Python",
+        menu_image: menu_1
     },
     {
-        menu_name: "Noodles",
-        menu_image: menu_8
-    }]
+        menu_name: "WordPress",
+        menu_image: menu_1
+    },
+    {
+        menu_name:"AI",
+        menu_image:menu_1
+    },
+    {
+        menu_name:"Viedo Editor",
+        menu_image:menu_1
+    },
+    {
+        menu_name:"Script Wri",
+        menu_image:menu_1
+    },  
+]
 
 export const food_list = [
     {
