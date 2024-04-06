@@ -1,46 +1,63 @@
 .header{
-    height: 125vh;
-   background: url('/header1.jpg') no-repeat;
+    height: 42vw;
+    margin: 30px auto;
+   background: url('/header_img.png') no-repeat;
     background-size: contain;
     position: relative;
+    width: 95%;
+     margin: auto;
 }
-.matter{
+.header-contents{
     position: absolute;
     align-items: start;
     bottom: 40%;
-    left: 4vw;
-    
-    
-    
-    
+    align-items: start;
+    gap:1vw;
+    max-width: 70%;
+    bottom: 10%;
+    left:6vw;
+    animation: fadeIn 2s;
 
+    
 }
-.header-contents{
-    display: flex;
-    flex-direction: column;
-    gap: 3vw;
-    max-width: 60%;
+
     
     
-    }
 .header-contents h2{
     color:white;
     font-weight: 500;
-    font-size: max(4vw,11px);
+    font-size: max(5vw,11px);
 
 }
 .header-contents p{
 
     color: white;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
 
 }
-.matter button{
-   
+.header-contents button{
+    margin-right:  30px;
     padding: 1.5vw 2.3vw;
-    
-    
+    font-weight: 900;
+    font-size: max(1.3vw,13px);
     border-radius: 10px;
+    background-color: white;
+    cursor: pointer; 
+    background-color: transparent;  
+    color: white;
+    
+   
+    overflow: hidden;  
+    }
+    #button1
+    {
+        background-color: blueviolet;
+
+    }
+    #one-time:hover{
+        background-color: rgb(126, 129, 138);
     }
 
 
