@@ -68,3 +68,6 @@ transition: 1s;
 .navbar li{
     cursor: pointer;
 }
+.navbar-right img{
+    cursor: pointer;
+}
