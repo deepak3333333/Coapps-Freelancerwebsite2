@@ -134,24 +134,27 @@ export const menu_list = [
     },  
 ]
 
-export const food_list = [
+export const category_list = [
     {
         _id: "1",
+        empname:"deepak",
         name: "Greek salad",
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Graphic Design"
     },
     {
         _id: "2",
+        empname:"vaibhaw",
         name: "Veg salad",
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Logo Design"
     }, {
         _id: "3",
+        empname:"shivam",
         name: "Clover Salad",
         image: food_3,
         price: 16,
@@ -159,6 +162,7 @@ export const food_list = [
         category: "Salad"
     }, {
         _id: "4",
+        empname:"manoj",
         name: "Chicken Salad",
         image: food_4,
         price: 24,
@@ -166,6 +170,7 @@ export const food_list = [
         category: "Salad"
     }, {
         _id: "5",
+        empname:"rekha",
         name: "Lasagna Rolls",
         image: food_5,
         price: 14,
@@ -173,6 +178,7 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "6",
+        empname:"sudha",
         name: "Peri Peri Rolls",
         image: food_6,
         price: 12,
@@ -180,6 +186,7 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "7",
+        empname:"saif",
         name: "Chicken Rolls",
         image: food_7,
         price: 20,
@@ -187,6 +194,7 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "8",
+        empname:"Venkey",
         name: "Veg Rolls",
         image: food_8,
         price: 15,
@@ -194,6 +202,7 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "9",
+        empname:"Rahul",
         name: "Ripple Ice Cream",
         image: food_9,
         price: 14,
@@ -201,6 +210,7 @@ export const food_list = [
         category: "Deserts"
     }, {
         _id: "10",
+        empname:"Pawna",
         name: "Fruit Ice Cream",
         image: food_10,
         price: 22,
@@ -208,6 +218,7 @@ export const food_list = [
         category: "Deserts"
     }, {
         _id: "11",
+        empname:"Rohit",
         name: "Jar Ice Cream",
         image: food_11,
         price: 10,
@@ -215,6 +226,7 @@ export const food_list = [
         category: "Deserts"
     }, {
         _id: "12",
+        empname:"Shankar",
         name: "Vanilla Ice Cream",
         image: food_12,
         price: 12,
@@ -223,6 +235,7 @@ export const food_list = [
     },
     {
         _id: "13",
+        empname:"tufan",
         name: "Chicken Sandwich",
         image: food_13,
         price: 12,
@@ -231,6 +244,8 @@ export const food_list = [
     },
     {
         _id: "14",
+        empname:"Sawami",
+
         name: "Vegan Sandwich",
         image: food_14,
         price: 18,
@@ -238,6 +253,7 @@ export const food_list = [
         category: "Sandwich"
     }, {
         _id: "15",
+        empname:"Salman",
         name: "Grilled Sandwich",
         image: food_15,
         price: 16,
@@ -245,6 +261,8 @@ export const food_list = [
         category: "Sandwich"
     }, {
         _id: "16",
+        empname:"Akshay",
+
         name: "Bread Sandwich",
         image: food_16,
         price: 24,
@@ -252,6 +270,7 @@ export const food_list = [
         category: "Sandwich"
     }, {
         _id: "17",
+        empname:"Sohal",
         name: "Cup Cake",
         image: food_17,
         price: 14,
@@ -259,6 +278,7 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "18",
+        empname:"Rohit",
         name: "Vegan Cake",
         image: food_18,
         price: 12,
@@ -266,6 +286,7 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "19",
+        empname:"Rinku",
         name: "Butterscotch Cake",
         image: food_19,
         price: 20,
@@ -273,6 +294,7 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "20",
+        empname:"Saw",
         name: "Sliced Cake",
         image: food_20,
         price: 15,
@@ -280,6 +302,7 @@ export const food_list = [
         category: "Cake"
     }, {
         _id: "21",
+        empname:"Kumar",
         name: "Garlic Mushroom ",
         image: food_21,
         price: 14,
@@ -287,6 +310,7 @@ export const food_list = [
         category: "Pure Veg"
     }, {
         _id: "22",
+        empname:"Satish",
         name: "Fried Cauliflower",
         image: food_22,
         price: 22,
@@ -294,6 +318,7 @@ export const food_list = [
         category: "Pure Veg"
     }, {
         _id: "23",
+        empname:"tinku",
         name: "Mix Veg Pulao",
         image: food_23,
         price: 10,
@@ -301,6 +326,7 @@ export const food_list = [
         category: "Pure Veg"
     }, {
         _id: "24",
+        empname:"Sudhir",
         name: "Rice Zucchini",
         image: food_24,
         price: 12,
@@ -309,6 +335,7 @@ export const food_list = [
     },
     {
         _id: "25",
+        empname:"kerithi",
         name: "Cheese Pasta",
         image: food_25,
         price: 12,
@@ -317,6 +344,7 @@ export const food_list = [
     },
     {
         _id: "26",
+        empname:"Json",
         name: "Tomato Pasta",
         image: food_26,
         price: 18,
@@ -324,6 +352,7 @@ export const food_list = [
         category: "Pasta"
     }, {
         _id: "27",
+        empname:"Rishu",
         name: "Creamy Pasta",
         image: food_27,
         price: 16,
@@ -331,6 +360,7 @@ export const food_list = [
         category: "Pasta"
     }, {
         _id: "28",
+        empname:"Ankit",
         name: "Chicken Pasta",
         image: food_28,
         price: 24,
@@ -338,6 +368,7 @@ export const food_list = [
         category: "Pasta"
     }, {
         _id: "29",
+        empname:"Raj",
         name: "Buttter Noodles",
         image: food_29,
         price: 14,
@@ -345,6 +376,7 @@ export const food_list = [
         category: "Noodles"
     }, {
         _id: "30",
+        empname:"Ravi",
         name: "Veg Noodles",
         image: food_30,
         price: 12,
@@ -352,6 +384,7 @@ export const food_list = [
         category: "Noodles"
     }, {
         _id: "31",
+        empname:"Rahul",
         name: "Somen Noodles",
         image: food_31,
         price: 20,
@@ -359,6 +392,7 @@ export const food_list = [
         category: "Noodles"
     }, {
         _id: "32",
+        empname:"Priya Raj",
         name: "Cooked Noodles",
         image: food_32,
         price: 15,
