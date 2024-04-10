@@ -5,7 +5,7 @@
     gap:20px;
     width: 95%;
      margin: auto;
-
+     
 }
 .explore-categories h1{
     color:#262662;
@@ -13,7 +13,13 @@
 }
 .explore-categories-text{
     max-width: 60%;
-    color:262662;
+    color:#262662;
+    font-weight: 400px;
+    font-size: 25q
+    px;
+    
+    
+
 
 }
 .explore-categories-list{
@@ -32,10 +38,10 @@
     display: none;
 }
 .explore-categories-list img{
-    width: 11vw;
+    width: 16vw;
     min-width: 80px;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 10%;
     transition: 0.3s;
 }
 .explore-categories-list p{

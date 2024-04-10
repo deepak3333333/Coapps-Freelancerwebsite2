@@ -7,7 +7,7 @@ const Categories = () => {
   return (
     <div className='explore-categories' id ='explre-categories'>
         <h1>Get Work  Done in Different Categories</h1>
-        <p className='explore-categories-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quos? Eius, voluptatum! Ipsum, eaque.</p>
+        <p className='explore-categories-text'>Select the categories , that you wanna to choose</p>
         <div className="explore-categories-list">
             {menu_list.map((item,index)=>{
               return (

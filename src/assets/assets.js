@@ -1,4 +1,4 @@
-import basket_icon from './basket_icon.png'
+
 import logo from './logo.png'
 import logo1 from './logo1.jpeg'
 import header_img from './header_img.png'
@@ -11,9 +11,9 @@ import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
-import menu_9 from './menu_8.png'
-import menu_10 from './menu_8.png'
-import menu_11 from './menu_8.png'
+import menu_9 from './menu_9.png'
+import menu_10 from './menu_10.png'
+import menu_11 from './menu_11.png'
 
 import food_1 from './food_1.png'
 import food_2 from './food_2.png'
@@ -67,7 +67,7 @@ import parcel_icon from './parcel_icon.png'
 export const assets = {
     logo1,
     logo,
-    basket_icon,
+    
     header_img,
     search_icon,
     rating_starts,
@@ -89,48 +89,48 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Mobile Apps",
-        menu_image: menu_1
-    },
-    {
-        menu_name: "Android Apps",
-        menu_image: menu_1
-    },
-    {
-        menu_name: "iPhone Apps",
-        menu_image: menu_1
-    },
-    {
         menu_name: "Graphic Design",
         menu_image: menu_1
     },
     {
         menu_name: "Logo Design",
-        menu_image: menu_1
+        menu_image: menu_2
+    },
+    {
+        menu_name: "Data Entry",
+        menu_image: menu_3
+    },
+    {
+        menu_name: "Mobile application",
+        menu_image: menu_4
+    },
+    {
+        menu_name: "video editor",
+        menu_image: menu_5
     },
     {
         menu_name: "Data Processing",
-        menu_image: menu_1
+        menu_image: menu_6
     },
     {
         menu_name: "Python",
-        menu_image: menu_1
+        menu_image: menu_7
     },
     {
         menu_name: "WordPress",
-        menu_image: menu_1
+        menu_image: menu_8
     },
     {
-        menu_name:"AI",
-        menu_image:menu_1
+        menu_name:"writers",
+        menu_image:menu_9
     },
     {
-        menu_name:"Viedo Editor",
-        menu_image:menu_1
+        menu_name:"voice Editor",
+        menu_image:menu_10
     },
     {
-        menu_name:"Script Wri",
-        menu_image:menu_1
+        menu_name:"lawers",
+        menu_image:menu_11
     },  
 ]
 
