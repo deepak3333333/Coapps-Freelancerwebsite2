@@ -4,9 +4,10 @@ import { Route,Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import FindJobs from './pages/FindJobs/FindJobs'
 import HierFreelancer from './pages/HierFreelancer/HierFreelancer'
+import Fotter from './components/Fotter/Fotter'
 
 const App = () => {
-  return (
+  return (<>
     <div className="app">
       <Navbar/>
      <Routes>
@@ -18,10 +19,10 @@ const App = () => {
 
      </Routes>
       
+</div>
+    <Fotter/>
+    </>
 
-     
-     
-    </div>
   )
 }
 
