@@ -6,12 +6,17 @@
     transition: 0.3;
     animation: fadeIn 2s;
     cursor: pointer;
+    
 
 
 }
 .categories-item-image{
     width: 100%;
     border-radius: 15px 15px 0px 0px;
+    
+}
+.categories-item-image:hover{
+    transform: scale(1.09);
 }
 .categories-item-info{
 
@@ -23,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: center;
+    
 }
 .categories-item-name-rating p{
     font-size: 20px;

@@ -57,3 +57,14 @@ font-size: 40px;
     background-color: #e2e2e2;
     border: none;
 }
+.explore-categories-list-item{
+    border: 4px solid tomato;
+    padding: 2px;
+}
+@media (max-width:1050){
+    .explore-categories-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
+    
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './Navbar.css'
 import {assets} from '../../assets/assets'
+import{Link} from 'react-router-dom';
 
 const Navbar = () => {
     const [menu,setMenu]=useState("home");
@@ -15,10 +16,10 @@ const Navbar = () => {
         </div>
         <ul className="navbar-menu">
 
-            <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li>
-            <li onClick={()=>setMenu("menu")}className={menu==="menu"?"active":""}>find jobs</li>
-            <li onClick={()=>setMenu("mobile-app")}className={menu==="mobile-app"?"active":""}>Hire Freelancer</li>
-            <li onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>contact us</li>
+            <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>
+            <a href="#explre-categories" onClick={()=>setMenu("menu")}className={menu==="menu"?"active":""}>find jobs</a>
+            <a href="#categories-display" onClick={()=>setMenu("mobile-app")}className={menu==="mobile-app"?"active":""}>Hire Freelancer</a>
+            <a href="#footer" onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>contact us</a>
         </ul>
 <div className="navbar-right">
     <img src={assets.search_icon} alt="" />
