@@ -39,10 +39,11 @@
 
 
 }
-.footer-social-icon img{
-    width: 40px;
-    margin-right: 15px;
+.footer-social-icons img{
+    width: 40   px;
+    margin-right:8px;
     cursor: pointer;
+    
     
     
 
@@ -57,7 +58,8 @@
 }
 .footer-copyright {
      display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    text-align: center; 
     
    
 

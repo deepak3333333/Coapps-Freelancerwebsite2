@@ -137,11 +137,11 @@ export const menu_list = [
 export const category_list = [
     {
         _id: "1",
-        empname:"deepak",
-        name: "Greek salad",
+        empname:"deepak Kumar",
+        name: " Mobile Application  Dev",
         image: food_1,
-        price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
+        price: 1200,
+        description: "Done many project and supply to client  on time . ",
         category: "Graphic Design"
     },
     {

@@ -9,7 +9,7 @@ const Fotter = () => {
 
             <div className="footer-content-left">
                 <img   src={assets.logo1} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nihil adipisci suscipit accusantium quidem exercitationem debitis, voluptas officiis! Quasi, voluptatum explicabo ullam doloremque eum recusandae! Vero nam laboriosam excepturi omnis.</p>
+                <p>Welcome to our freelancer platform, where freelancers and clients converge to create amazing work together. We believe in the power of connection, collaboration, and creativity. Here, freelancers unlock their potential, one project at a time, while businesses discover the perfect talent to fulfill their needs. Our platform is more than just a marketplace; it's a community where talent meets opportunity. We empower freelancers to take control of their careers and businesses to find the right expertise for their projects. Join us in the freelance revolution and experience the freedom to work on your own terms, build meaningful relationships, and achieve success</p>
                 <div className="footer-social-icons">
 
                     <img src={assets.facebook_icon} alt="" />
