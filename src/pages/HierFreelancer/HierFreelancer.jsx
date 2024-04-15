@@ -4,7 +4,7 @@ import './HierFreelancer.css'
 const HierFreelancer = () => {
   return (
     <div>
-      
+     
     </div>
   )
 }

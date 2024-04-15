@@ -1,0 +1,104 @@
+.header{
+    height: 42vw;
+    margin: 30px auto;
+   background: url('/header_img.png') no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 95%;
+    margin: auto;
+    border-radius: 20px;
+    
+    
+    
+   
+}
+
+.header-contents{
+    position: absolute;
+    align-items: start;
+    bottom: 40%;
+    align-items: start;
+    gap:1vw;
+    max-width: 70%;
+    bottom: 10%;
+    left:3.8vw;
+    animation: fadeIn 2s;
+    padding-top:40px;
+    
+
+    
+}
+.header-contents span{
+    color:#87873a;
+}
+
+    
+    
+.header-contents h2{
+    color:white;
+    font-weight: 700;
+    font-size: max(4vw,1px);
+    filter: brightness();
+    
+
+}
+.header-contents p{
+
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 700;
+
+}
+.header-contents button{
+    margin-right:  30px;
+    padding: 1.5vw 2.3vw;
+    font-weight: 900;
+    font-size: max(1.3vw,13px);
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer; 
+    background-color: transparent;  
+    color: white;
+    
+   
+    overflow: hidden;  
+    }
+    #button1
+    {
+        background-color: black;
+
+    }
+    #one-time:hover{
+        background-color:  black;
+    }
+    @media (max-width:1050px) {
+       
+        .header-contents{
+            max-width:45% ;
+        }
+    }
+    @media (max-width:750px) {
+        .header-contents{
+
+            max-width: 65%;
+
+        }
+        .header-contents p{
+            display: none;
+
+        }
+        .header-contents button{
+            padding: 2vw 4 vw;
+
+        }
+
+
+
+
+    }
+
+
+
+

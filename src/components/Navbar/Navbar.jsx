@@ -19,7 +19,7 @@ const Navbar = ({setShowLogin}) => {
             <Link to='/' onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</Link>
             <a href="#explre-categories" onClick={()=>setMenu("menu")}className={menu==="menu"?"active":""}>find jobs</a>
             <a href="#categories-display" onClick={()=>setMenu("mobile-app")}className={menu==="mobile-app"?"active":""}>Hire Freelancer</a>
-            <a href="#footer" onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>contact us</a>
+            <a href="Freelancer.jsx" onClick={()=>setMenu("contact-us")}className={menu==="contact-us"?"active":""}>contact us</a>
         </ul>
 <div className="navbar-right">
     <img src={assets.search_icon} alt="" />
