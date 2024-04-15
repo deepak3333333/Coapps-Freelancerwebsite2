@@ -10,6 +10,7 @@
     
     
     
+    
    
 }
 
@@ -93,11 +94,18 @@
             padding: 2vw 4 vw;
 
         }
+}
+    @media (max-width:900px) {
+        .header-contents{
+            
+        }
 
 
 
 
     }
+
+
 
 
 

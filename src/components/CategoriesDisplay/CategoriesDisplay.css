@@ -15,3 +15,20 @@
     gap:30px;
     row-gap: 30px;
 }
+@media (max-width:900px) {
+    .categories-display h1{
+        font-size: 20px;
+    }
+
+    .categories-display-list{
+        width: 80%;
+        margin: auto;
+    }
+
+
+
+
+
+
+
+}

@@ -68,3 +68,17 @@ font-size: 40px;
     }
     
 }
+@media (max-width:900px) {
+    .explore-categories h1{
+        font-size: 25px;
+
+    }
+    .explore-categories p{
+        font-size:19px ;
+    }
+
+
+
+
+
+}
